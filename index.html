@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LuxBuzz Tonight</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0f14;
+color:white;
+}
+
+header{
+height:70vh;
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),
+url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:4rem;
+font-weight:800;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+color:#ddd;
+}
+
+.container{
+width:90%;
+max-width:1400px;
+margin:auto;
+padding:60px 0;
+}
+
+.section-title{
+font-size:2.5rem;
+margin-bottom:30px;
+color:#ff9800;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.card{
+background:#121821;
+border-radius:20px;
+overflow:hidden;
+transition:.3s;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.content{
+padding:25px;
+}
+
+.category{
+display:inline-block;
+padding:5px 12px;
+background:#ff9800;
+border-radius:30px;
+font-size:12px;
+margin-bottom:10px;
+}
+
+.content h3{
+margin-bottom:10px;
+}
+
+.content p{
+color:#c8c8c8;
+margin-bottom:15px;
+}
+
+.place{
+font-weight:600;
+margin-bottom:8px;
+}
+
+.date{
+color:#ff9800;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 20px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+
+.btn:hover{
+background:#ffb300;
+}
+
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+margin-top:50px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero">
+<div>
+<h1>🔥 LuxBuzz Tonight</h1>
+<p>Les événements de ce soir à Luxembourg-Ville</p>
+</div>
+</div>
+</header>
+
+<div class="container">
+
+<h2 class="section-title">
+Ce soir au Luxembourg
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a">
+<div class="content">
+<span class="category">Musique</span>
+<h3>Isaiah Collier Quartet</h3>
+<p>Concert de jazz à la Philharmonie Luxembourg.</p>
+<div class="place">📍 Philharmonie Luxembourg</div>
+<div class="date">Ce soir</div>
+<a href="https://www.luxembourg-city.com/fr/agenda" target="_blank" class="btn">
+Voir détails
+</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1527224538127-2104bb71c51b">
+<div class="content">
+<span class="category">Comedy</span>
+<h3>Comedy in English</h3>
+<p>Dinara Kerey - CRAZY EURASIAN.</p>
+<div class="place">📍 Carlitos Comedy Club</div>
+<div class="date">Ce soir</div>
+<a href="https://www.luxembourg-city.com/fr/agenda" target="_blank" class="btn">
+Voir détails
+</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81">
+<div class="content">
+<span class="category">Stand-up</span>
+<h3>Standup Comedy Openmic</h3>
+<p>Scène ouverte humoristique.</p>
+<div class="place">📍 Bar Grand'Place</div>
+<div class="date">Ce soir</div>
+<a href="https://www.luxembourg-city.com/fr/agenda" target="_blank" class="btn">
+Voir détails
+</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4">
+<div class="content">
+<span class="category">Nightlife</span>
+<h3>Speed Dating</h3>
+<p>Rencontre célibataires.</p>
+<div class="place">📍 Luxembourg Ville</div>
+<div class="date">Ce soir</div>
+<a href="https://www.luxembourg-city.com/fr/agenda" target="_blank" class="btn">
+Voir détails
+</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba">
+<div class="content">
+<span class="category">Cinéma</span>
+<h3>Palestine 36</h3>
+<p>Projection au Ciné Utopia.</p>
+<div class="place">📍 Ciné Utopia</div>
+<div class="date">Ce soir</div>
+<a href="https://www.luxembourg-city.com/fr/agenda" target="_blank" class="btn">
+Voir détails
+</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865">
+<div class="content">
+<span class="category">Culture</span>
+<h3>City Promenade</h3>
+<p>Visite guidée de Luxembourg-Ville.</p>
+<div class="place">📍 Place Guillaume II</div>
+<div class="date">Aujourd'hui</div>
+<a href="https://www.vdl.lu/fr/agenda" target="_blank" class="btn">
+Voir détails
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Sources officielles :</p>
+
+<p>
+https://www.vdl.lu/fr/agenda
+</p>
+
+<p>
+https://www.luxembourg-city.com/fr/agenda
+</p>
+
+</footer>
+
+</body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBJ6P8LQ9Y"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-MBJ6P8LQ9Y');
+</script>
+</html>
